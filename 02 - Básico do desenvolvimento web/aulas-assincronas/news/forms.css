@@ -1,0 +1,28 @@
+section#register h1 {
+  padding: 1rem 1rem 0 1rem;
+}
+
+section#register form {
+  padding: 2rem;
+}
+
+section#register form label {
+  display: block;
+  width: 50%;
+  text-align: right;
+}
+
+section#register input[type="text"],
+section#register input[type="email"],
+section#register input[type="password"] {
+  border: 2px solid #DDD;
+  padding: 0.5rem 1rem;
+}
+
+section#register input[type=submit] {
+  border: 2px solid #DDD;
+  background-color: #F4F4F4;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  margin: 2rem auto;
+}

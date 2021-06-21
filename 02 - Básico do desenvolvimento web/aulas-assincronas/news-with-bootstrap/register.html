@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Super Legit News</title>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <link href="layout.css" rel="stylesheet">
+    <link href="forms.css" rel="stylesheet">    
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-md-12">
+          <h1><a href="index.html">Super Legit News</a></h1>
+          <h2><a href="index.html">Where fake news are born!</a></h2>
+          <div id="signup">
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+          </div>
+        </div>
+      </header>
+
+      <nav class="row navbar navbar-expand-lg navbar-light bg-light">
+        <div class="col-lg-9 col-sm-12">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav d-flex flex-fill flex-sm-column flex-lg-row">
+              <li class="text-md-start text-lg-center nav-item flex-fill local"><a class="nav-link" href="index.html">Local</a></li>
+              <li class="text-md-start text-lg-center nav-item flex-fill world"><a class="nav-link" href="index.html">World</a></li>
+              <li class="text-md-start text-lg-center nav-item flex-fill politics"><a class="nav-link" href="index.html">Politics</a></li>
+              <li class="text-md-start text-lg-center nav-item flex-fill sports"><a class="nav-link" href="index.html">Sports</a></li>
+              <li class="text-md-start text-lg-center nav-item flex-fill science"><a class="nav-link" href="index.html">Science</a></li>
+              <li class="text-md-start text-lg-center nav-item flex-fill weather"><a class="nav-link" href="index.html">Weather</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="row">
+        <div class="col-lg-9 col-sm-12">
+          <section id="register">
+            <h1 class="h1">Register</h1>
+            <form>
+
+              <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Username</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="staticEmail" value="">
+                </div>
+              </div>
+            
+              <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="staticEmail" value="">
+                </div>
+              </div>
+
+              <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword">
+                </div>
+              </div>
+
+              <input type="submit" value="Register" class="btn btn-success">
+            </form>
+          </section>
+      </div>
+      <aside id="related" class="col-lg-3 col-sm-12">
+        <article>
+          <h1><a href="#">Duis arcu purus</a></h1>
+          <p>Etiam mattis convallis orci eu malesuada. Donec odio ex, facilisis ac blandit vel, placerat ut lorem. Ut id sodales purus. Sed ut ex sit amet nisi ultricies malesuada. Phasellus magna diam, molestie nec quam a, suscipit finibus dui. Phasellus a.</p>
+        </article>        
+        <article>
+          <h1><a href="#">Sed efficitur interdum</a></h1>
+          <p>Integer massa enim, porttitor vitae iaculis id, consequat a tellus. Aliquam sed nibh fringilla, pulvinar neque eu, varius erat. Nam id ornare nunc. Pellentesque varius ipsum vitae lacus ultricies, a dapibus turpis tristique. Sed vehicula tincidunt justo, vitae varius arcu.</p>
+        </article>
+        <article>
+          <h1><a href="#">Vestibulum congue blandit</a></h1>
+          <p>Proin lectus felis, fringilla nec magna ut, vestibulum volutpat elit. Suspendisse in quam sed tellus fringilla luctus quis non sem. Aenean varius molestie justo, nec tincidunt massa congue vel. Sed tincidunt interdum laoreet. Vivamus vel odio bibendum, tempus metus vel.</p>
+        </article>
+      </aside>
+    </main>
+    <footer class="row">
+      <p class="col-12">&copy; Fake News, 2017</p>
+    </footer>
+  </body>
+</html>
