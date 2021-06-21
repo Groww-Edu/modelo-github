@@ -1,0 +1,95 @@
+/* phones */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body > header,
+  section {
+    max-width: none;
+  }
+
+  aside {
+    display: none;
+  }
+
+  nav {
+    background-color: #2A2F33;
+    margin-right: 0;
+  }
+
+  nav input {
+    margin: 0;
+  }
+
+  nav input:checked ~ ul {
+    display: block;
+  }
+  
+  nav ul {
+    display: none;
+    z-index: 999;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 8.5rem;
+  }
+
+  nav ul li a {
+    display: block;
+    width: auto;
+  }
+
+  nav ul li {
+    float: none;
+  }
+
+  nav #hamburger,
+  nav .hamburger {
+    display: block;
+  }
+
+  article header {
+    width: 60%;
+  }
+
+  section#register form label {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  section#register form label input {
+    display: block;
+    width: 90%;
+  }
+}
+
+/* tablets */
+@media only screen and (min-width: 480px) and (max-width: 1200px) {
+  aside {
+    display: none;
+  }
+
+  body > header,
+  section {
+    max-width: none;
+  }
+
+  nav {
+    margin: 0;
+  }
+
+  nav ul li {
+    width: 7.82rem;
+  }
+  
+  nav ul li a {
+    display: block;
+  }
+}
+
+/* desktops */
+@media only screen  
+  and (min-width: 1200px) 
+  and (max-width: 1600px) {
+
+  }

@@ -1,0 +1,173 @@
+html,
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: #F3F3F3;
+}
+
+body > header {
+  max-width: 60rem;
+  height: 5.5rem;
+  background-color: #046DD5;
+  margin: 0 auto;
+  color: white;
+}
+
+body > header a {
+  color: white;
+  text-decoration: none;
+}
+
+body > header h1 {
+  padding: 1rem 0 0 1rem;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+body > header h2 {
+  padding: 0 1rem;
+  font-size: 0.8rem;
+}
+
+body > header div#signup {
+  float: right;
+  margin-top: -3rem;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+body > header div#signup a:last-child {
+  border-left: 1px solid #FFF;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+body > header div#signup a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+nav {
+  margin-right: 12rem;
+  height: 3rem;
+  background-color: #FFF;
+}
+
+nav #hamburger,
+nav .hamburger {
+  display: none;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+nav ul li a {
+  display: inline-block;
+  width: 8rem;
+  line-height: 3rem;
+  color: black;
+  text-decoration: none;
+  border-top: 5px solid black;
+}
+
+nav ul li.local a {
+  border-top-color: #E1493E;
+}
+
+nav ul li.world a {
+  border-top-color: #8ABA56;
+}
+
+nav ul li.politics a {
+  border-top-color: #5B4282;
+}
+
+nav ul li.sports a {
+  border-top-color: #FF8932;
+}
+
+nav ul li.science a {
+  border-top-color: #19B6E9;
+}
+
+nav ul li.weather a {
+  border-top-color: #E84C8B;
+}
+
+article {
+  position: relative;
+}
+
+article footer,
+article p {
+  padding: 0 2rem 1rem 2rem;
+}
+
+article img {
+  width: 100%;
+}
+
+article header {
+  position: absolute;
+  width: 40%;
+  line-height: 2rem;
+  top: 1rem;
+  left: 2rem;
+}
+
+article header a {
+  color: white;
+  text-shadow: 3px 3px 2px #444;
+  text-decoration: none;
+}
+
+aside {
+  float: right;
+  width: 10rem;
+  margin-top: -3rem;
+  background-color: #2A2F33;
+  color: white;
+  padding: 0 1rem;
+  height: 100%;
+}
+
+aside h1 a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+section {
+  max-width: 48rem;
+}
+
+footer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  max-width: 47rem;
+  padding-right: 12rem;
+  margin: 0 auto;
+}
+
+footer p {
+  background-color: #2A2F33;
+  color: white;
+  padding: 1rem;
+}
